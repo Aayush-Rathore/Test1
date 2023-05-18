@@ -1,0 +1,28 @@
+.page__navigation {
+    width: 692px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 28px;
+}
+
+.nav__links {
+    text-decoration: none;
+    font-family: var(--default-font);
+    margin-right: 20px;
+    color: #8a8a8a;
+    height: 100%;
+    padding: auto;
+}
+
+.page__navigation .active {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+@media screen and (max-width: 1000px) {
+    .page__navigation {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.main__body {
+    padding-top: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.user__actionSec {
+    max-width: 330px;
+}
+
+@media screen and (max-width:1150px) {
+    /* .main__body {
+        padding: 0 100px;
+        padding-top: 47px;
+    } */
+
+    .user__actionSec {
+        display: none;
+    }
+}
